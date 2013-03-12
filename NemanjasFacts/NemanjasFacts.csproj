@@ -61,7 +61,7 @@
     <Content Include="img\troll_icon.jpg" />
     <Content Include="js\bootstrap.js" />
     <Content Include="js\bootstrap.min.js" />
-    <Content Include="NemanjasFacts.aspx" />
+    <Content Include="CicicFacts.aspx" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -74,12 +74,12 @@
     <Compile Include="Classes\API.cs" />
     <Compile Include="Classes\APIException.cs" />
     <Compile Include="Classes\JSONObject.cs" />
-    <Compile Include="NemanjasFacts.aspx.cs">
-      <DependentUpon>NemanjasFacts.aspx</DependentUpon>
+    <Compile Include="CicicFacts.aspx.cs">
+      <DependentUpon>CicicFacts.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="NemanjasFacts.aspx.designer.cs">
-      <DependentUpon>NemanjasFacts.aspx</DependentUpon>
+    <Compile Include="CicicFacts.aspx.designer.cs">
+      <DependentUpon>CicicFacts.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

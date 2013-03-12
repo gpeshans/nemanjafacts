@@ -29,7 +29,7 @@ namespace NemanjasFacts
 
             if (dim == 0)
             {                
-                fact.InnerHtml = "These are the Nemanja's Facts!";                
+                fact.InnerHtml = "These are the Cicic's Facts!";                
             }
             else
             {

@@ -1,10 +1,10 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="NemanjasFacts.aspx.cs"
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="CicicFacts.aspx.cs"
     Inherits="NemanjasFacts.NemanjasFacts" %>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title>Nemanja's Facts</title>
+    <title>Cicic Facts</title>
     <!-- Title icon -->
     <link rel="SHORTCUT ICON" href="~/img/troll_icon.jpg" type="image/x-icon" />
     <link href="css/bootstrap-responsive.css" rel="stylesheet" type="text/css" />
@@ -28,8 +28,10 @@
 </head>
 <body>
     <form id="form1" runat="server">
+    
     <div style=" width:100%; margin: 0 auto;">
-        <div style="margin: 0 auto; padding: 50px 0 30px 45%;">
+    <div style="margin:0 auto; padding:10px 0 0 42%; color:#A2C535;"><h1>Cicic's Facts</h1></div>
+        <div style="margin: 0 auto; padding: 10px 0 10px 45%;">
             <asp:Button ID="btnFact" runat="server" Text="Generate Fact" CssClass="btn btn-primary btn-large" /></div>
         <div style="margin: 0 auto; text-align:center; padding:0 200px;" id="fact" runat="server">
         </div>
